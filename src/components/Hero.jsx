@@ -3,8 +3,10 @@ import styles from '../style'
 import { discount, robot } from '../assets'
 import GetStarted from './GetStarted'
 
+
 const Hero = () => (
-    <section id='home' className={`flex d:flex-row flex-row overflow-hidden ss:flex ${styles.paddingY}`}>
+    <section id='home' className={`flex md:flex-row flex-col overflow-hidden ss:flex sm:flex ${styles.paddingY}`}
+    >
 
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6` }>
 
@@ -29,7 +31,7 @@ const Hero = () => (
 
           <div className='ss:flex hidden md:mr-4 mr-0'>
 
-            <GetStarted/>
+            {/* <GetStarted/> */}
 
           </div>
 
@@ -45,10 +47,14 @@ const Hero = () => (
 
         </h1> */}
 
-        <p className='text-white'>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+          Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. we examine annual percentage rates annual fees
 
         </p>
+      </div>
 
+      <div>
+        <img src={robot} alt="" className='w-[100%] h-[100%] relative z-[5] ' /> 
 
       </div>
 
@@ -60,3 +66,9 @@ const Hero = () => (
 
 
 export default Hero
+
+/*
+
+className={`flex d:flex flex overflow-hidden ss:flex sm:flex ${styles.paddingY}`}
+
+*/ 
