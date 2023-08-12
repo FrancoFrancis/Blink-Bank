@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <nav className='w-full flex py-6  justify-between items-center navbar'>
 
-      <h1 className='w-[124px]  h-[32px] text-white fw-bold' alt='blink bank ss:text-[30px] ' >BLINK BANK</h1>
+      <h1 className='w-[124px]  h-[32px] text-gradient fw-bold' alt='blink bank ss:text-[30px]  font-poppins font-semibold xs:text-[20px] ' >BLINK BANK</h1>
 
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (
