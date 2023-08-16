@@ -25,14 +25,9 @@ const App = () =>  (
       <Billing/>
       <CardDeal/>
       <Testimonials/>
-        {/*
-        
-        
-       
-       
-        <Clients/>
-        <CTA/>
-        <Footer/> */}
+      <Clients/>
+      <CTA/>
+      <Footer/>
       </div>
     </div>
 

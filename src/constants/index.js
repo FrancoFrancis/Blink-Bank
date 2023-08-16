@@ -48,7 +48,7 @@ export const feedback = [
     id: "feedback-1",
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.                                  ",
-    name: "Francis Cobbler",
+    name: "Francesca Cobbler",
     title: "Founder & Leader",
     img: people01,
   },
@@ -102,15 +102,15 @@ export const footerLinks = [
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "https://www.blinkbank.com/create/",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "https://www.blinkbank.com/explore/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "https://www.blblinkbank.com/terms-and-services/",
       },
     ],
   },
@@ -119,23 +119,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://www.blinkbank.com/help-center/",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "https://www.blinkbank.com/partners/",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "https://www.blinkbank.com/suggestions/",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "https://www.blinkbank.com/blog/",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "https://www.blinkbank.com/newsletters/",
       },
     ],
   },
@@ -144,11 +144,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://www.blinkbank.com/our-partner/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://www.blinkbank.com/become-a-partner/",
       },
     ],
   },
